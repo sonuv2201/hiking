@@ -1,0 +1,490 @@
+section#service {
+    display: none;
+}
+
+.homeBannerSlider img {
+    max-width: 100%;
+    height: 630px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.homeBannerSlider button.slick-prev.slick-arrow {
+    font-size: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    left: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.homeBannerSlider button.slick-prev.slick-arrow:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-top: 0;
+    border-right: 0;
+    left: 42px;
+}
+
+.homeBannerSlider button.slick-next.slick-arrow {
+    font-size: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.homeBannerSlider button.slick-next.slick-arrow:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-bottom: 0;
+    border-left: 0;
+    left: 35px;
+}
+
+.homeBannerSlider button.slick-arrow:hover {
+    box-shadow: inset 0px 0px 0 100px #fff;
+}
+
+.homeBannerSlider button.slick-arrow {
+    transition: 0.5s;
+    box-shadow: inset 0px 0px 0 0px #fff;
+}
+
+.homeBannerSlider button.slick-arrow:hover:before {
+    border-color: #000;
+}
+
+.sliderContainer {
+    margin-top: 39px;
+}
+
+ul.slick-dots {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    list-style: none;
+    gap: 7px;
+    bottom: 29px;
+    padding: 7px 10px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background: #ffffff1f;
+    border-radius: 100px;
+    backdrop-filter: blur(11px);
+    border: 1px solid #fff0;
+}
+
+ul.slick-dots button {
+    display: none;
+}
+
+ul.slick-dots li {
+    width: 16px;
+    height: 16px;
+    transition: 0.5s;
+    background: #f1a501;
+    border-radius: 10px;
+}
+
+li.slick-active {
+    background: #f1a501;
+    width: 104px!important;
+    border-radius: 10px;
+}
+
+.backgroundCongtainer .container {
+    padding-top: 9%;
+    padding-bottom: 7%;
+}
+
+h4.text-white {
+    font-size: 30px;
+}
+
+h1.title.text-white {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.backgroundCongtainer {
+    position: relative;
+    background-size: cover!important;
+    background-position:center!important;
+}
+
+.backgroundCongtainer:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #0000009c;
+}
+
+h1.hero-title {
+    color: #fff;
+}
+
+.backgroundCongtainer .container p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.backdrop {
+    backdrop-filter: blur(11px);
+    background: #ffffff7d;
+}
+
+a.button {
+    background: #f1a501;
+    color: black;
+    padding: 14px 43px;
+    display: inline-block;
+    border-radius: 100px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    z-index: 2;
+}
+
+a.button:before {
+    content: "";
+    width: calc(100% - 13px);
+    height: calc(100% - 10px);
+    background: #ffffff6b;
+    position: absolute;
+    border-radius: inherit;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.2s;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+a.button:hover:before {
+    transform: scaleX(1);
+}
+
+section#section-2 {
+    display: none;
+}
+
+.hikeItem {
+    padding: 0px 15px;
+}
+
+.hikeItemSlider {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+section#destination button.slick-prev.slick-arrow:after {
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    transform: rotate(45deg);
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    border: 4px solid;
+    border-top: 0;
+    border-right: 0;
+    content: "";
+    right: -5px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border-color: #f1a501;
+}
+
+section#destination button.slick-next.slick-arrow:before {
+    content: "";
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    transform: rotate(45deg);
+    z-index: 9999;
+    position: absolute;
+    left: -6px;
+    border: 4px solid;
+    border-bottom: 0;
+    border-left: 0;
+    content: "";
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border-color: #f1a501;
+}
+
+.hikeItemSlider {
+    margin-bottom: 68px;
+    padding-bottom: 30px;
+}
+
+section#destination button.slick-arrow {
+    transition: 0.5s;
+    width: 89px;
+    height: 50px;
+    position: absolute;
+    bottom: -14px;
+    font-size: 0;
+    border: 2px solid;
+    background: transparent;
+    border-color: #f1a5016b;
+}
+
+section#destination button.slick-arrow:hover {
+    border-color: #f1a501;
+}
+
+section#destination button.slick-prev.slick-arrow {
+    left: calc(50% - 93px);
+}
+
+section#destination button.slick-next.slick-arrow {
+    transition: 0.5s;
+    width: 89px;
+    height: 50px;
+    position: absolute;
+    bottom: -14px;
+    font-size: 0;
+    border: 2px solid;
+    background: transparent;
+    border-color: #f1a5016b;
+}
+
+section#destination button.slick-next.slick-arrow {
+    right: calc(50% - 93px);
+}
+
+.hikeItem {
+    margin-bottom: 83px;
+}
+
+section#destination button.slick-next.slick-arrow:hover {
+    border-color: #f1a501;
+}
+
+#booking{
+	display:none;
+}
+
+section#testimonial {
+    background: #f1a501;
+    padding: 8% 0%;
+}
+
+button.carousel-control-next.position-static {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+button.carousel-control-prev.position-static {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+}
+
+.blogItem img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blogItem {
+    position: relative;
+}
+
+.category {
+    background: orange;
+    width: max-content;
+    border-radius: 24px;
+    padding: 3px 18px;
+    position: absolute;
+    margin-top: -16px;
+    right: 24px;
+}
+
+.category a {
+    color: #fff;
+}
+
+.blogItem h4 {
+    font-size: 18px;
+    margin-top: 29px;
+    font-family: "Volkhov","DM Serif Display",cursive;
+    margin-bottom: 17px;
+}
+
+.blogItem h4 + p {
+    font-size: 15px;
+}
+
+.sigma_post-footer {
+    border-top: 1px solid #6e6aeb85;
+    padding-top: 11px;
+    font-size: 13px;
+}
+
+section#blog h3.fs-xl-10.fs-lg-8.fs-7.fw-bold.font-cursive.text-capitalize {
+    margin-bottom: 50px;
+}
+
+.blogItem a {
+    text-decoration: none;
+}
+
+div#clientIdea {
+    display: none;
+}
+
+main#top {
+    padding-top: 41px;
+}
+
+.googleReview > img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display: table;
+    border-radius: 100%;
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
+
+.googleReview {
+    border: 1px solid #cbbcbc;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.googleReview h4 {
+    text-align: center;
+    margin-bottom: -2px;
+}
+
+p.star {
+    text-align: center;
+    color: #f1a501;
+    font-size: 29px;
+}
+
+.review {
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 10px;
+    line-height: 1.7em;
+}
+
+p.credit img {
+    width: 20px;
+}
+
+p.credit {
+    text-align: center;
+    line-height: 15px;
+    color: #0000007a;
+    margin-top: 19px;
+    font-weight: 500;
+}
+
+p.credit img {
+    transform: translateY(-1px);
+}
+
+section.topFooter {
+    background: #f6f3e0;
+}
+
+.trackingFooter ul {
+    padding: 0;
+    list-style: none;
+}
+
+.trackingFooter ul li a {
+    display: inline-block;
+    position: relative;
+    padding: 4px 15px 3px;
+    text-decoration: none;
+}
+
+.trackingFooter ul li a:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 3px solid;
+    transform: rotate(45deg);
+    border-top: 0;
+    border-right: 0;
+    border-color: #f1a501;
+    top: 10px;
+    left: 0;
+}
+
+ul.two-column {
+    column-count: 2;
+}
+
+section#testimonial h5.text-secondary {
+    color: #fff!important;
+}
+
+section#testimonial h5.text-secondary + h3 {
+    color: #fff;
+}
+
+.blogItem {
+    margin-bottom: 50px;
+}
+
+@media (max-width:767px) {
+	main#top {
+		padding-top: 77px;
+	}
+	.homeBannerSlider button.slick-arrow {
+		display: none!important;
+	}
+	.homeBannerSlider {
+		padding-bottom: 84px;
+		margin-bottom: -64px;
+	}
+}
